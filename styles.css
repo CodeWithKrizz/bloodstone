@@ -22,6 +22,9 @@ header{
 .nav_links li a{
     text-decoration: none;
 }
+.nav_links li a:hover{
+    color: red;
+}
 .hero h1{
     position: absolute;
     margin: 260px 200px 0px 70px;
@@ -31,8 +34,12 @@ header{
 span{
     color: red;
 }
-img{
-    position: absolute;
-    height: 100%;
+.pic{
+    height: 1000px;
     margin: 0 10px;
+}
+footer{
+    background-color: black;
+    padding: 50px 30px;
+    margin: 100px 0px 0px 0px;
 }

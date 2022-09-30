@@ -1,4 +1,5 @@
-*{
+*{ /* Group code start */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
@@ -16,32 +17,64 @@ header{
 }
 .nav_links li{
     display: inline-block;
-    margin: 20px 30px;
+    margin: 30px 30px;
     list-style: none;
 }
-.nav_links a{
+a:link{
     text-decoration: none;
 }
-.nav_links a:hover{
+a:visited, a:visited i{
     color: red;
+}
+.nav_links a:hover, footer a:hover{
+    color: red;
+}
+a:active {
+    font-style: italic;
 }
 .hero h1{
     position: absolute;
     margin: 260px 200px 0px 70px;
     font-size: 10em;
-    text-shadow: 2px 10px black;
     z-index: 2;
+    text-shadow: 2px 2px 15px black;
 }
 span{
     color: red;
 }
-.pic{
+#pic{
     height: 800px;
-    margin: 4px 0px;
-    box-shadow: 2px 2px 15px black;
+    margin: 4px 0px 15px 0px;
 }
 footer{
     background-color: black;
-    padding: 50px 30px;
+    padding: 15px 30px;
     margin: 100px 0px 0px 0px;
 }
+th, tr, td {
+    padding: 3px 5px 0 5px;
+}
+table, footer a, footer h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px 10px 10px;
+} /* Group code end */
+.about { /* Felicias code start */
+    width:300px;
+    padding: 20px;
+    margin: 50px 0 0 580px;
+    border-style: double;
+    background-color: black;
+}
+.bandet {
+    margin: 60px 0 0 500px; 
+}
+.beginning {
+    margin-top: 30px 0 0 650px;
+    color:red;
+} /* Felicias code end */
+
+
+
+

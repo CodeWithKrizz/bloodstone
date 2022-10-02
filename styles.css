@@ -94,12 +94,12 @@ table, footer a, footer h1{
     letter-spacing: 2px;
     line-height: 30px;
 } 
-.header h1 {
+.headers h1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.header h3 {
+.headers h3 {
     display: flex;
     align-items: center;
     justify-content: center;

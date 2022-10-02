@@ -84,22 +84,21 @@ table, footer a, footer h1{
     width: 500px;
     border-style: double;
     background-color: #000;
-    padding: 0 20px;
+    padding: 10px 20px;
     margin: 30px;
     letter-spacing: 2px;
     line-height: 30px;
 } 
-.headers h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.headers h3 {
+.headers h1, .headers h3 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+.headers h3 {
+    margin-top: 20px;
     font-size: 24px;
+    color: red;
 }
 #pic-for-jess-page { 
     width: 500px;

@@ -21,7 +21,7 @@ header{
     list-style: none; 
 }
 a:link{ 
-    -decoration: none; 
+    text-decoration: none; 
 }
 a:visited, a:visited i{ 
     color: red; 
@@ -94,11 +94,6 @@ table, footer a, footer h1{
     width: 500px;
     margin: 30px 20px;
 } /* Jess code end */
-
-
-
-
-
 /* Krizz code start */
 .tour h1{
     position: absolute;

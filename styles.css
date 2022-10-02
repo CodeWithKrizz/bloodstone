@@ -100,4 +100,18 @@ table, footer a, footer h1{
 
 
 /* Krizz code start */
+.tour h1{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    font-size: 40px;
+    writing-mode:vertical-rl;
+}
+ #location, #cities{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    list-style: none;
+    background: black;
+}
 /* Krizz code end */

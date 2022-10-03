@@ -22,13 +22,13 @@ header{
 a:link{ 
     text-decoration: none; 
 }
-a:visited, a:visited i, .nav_links a:hover, footer a:hover, span, .beginning, .headers h3{ 
+a:visited, a:visited i, .nav_links a:hover, footer a:hover, span, .beginning, .headers h3, .merch-headers h4{ 
     color: red; 
 }
 a:active { 
     font-style: italic; 
 }
-.hero h1{ 
+.hero h1 { 
     position: absolute;
     margin: 260px 200px 0px 70px;
     font-size: 10em;
@@ -52,7 +52,7 @@ footer{
 th, tr, td {
     padding: 3px 5px 0 5px; 
 }
-table, footer a, footer h1{
+table, footer a, footer h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,3 +104,25 @@ header, footer, .about , .grid_container, .lyrics-box {
     padding: 50px; /* padding of the child elements, give the feel of space*/
     border-bottom: 1px solid #1c1c1c; /* for visual ease to see separation */
 } /* Krizz code end */
+.merch h1 { /* Rebecca Ritzén code start */
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 4em;
+    text-shadow: 2px 2px 15px black; 
+}
+.merch_pic { /* The size of the merch pictures */
+width: 300px;
+box-shadow: 5px 5px 5px black;
+border-radius: 5px; /* gives small round corners */
+}
+.infobox-merch, .merch-headers h2 { /* Slå ihop med Jessicas kod kanske? */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rock-concert_pic {
+   width: 100%;
+}
+/* Rebecca Ritzén code start */

@@ -13,7 +13,6 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: black;
 }
 .nav_links li{ 
     display: inline-block;
@@ -23,10 +22,7 @@ header{
 a:link{ 
     text-decoration: none; 
 }
-a:visited, a:visited i{ 
-    color: red; 
-}
-.nav_links a:hover, footer a:hover{ 
+a:visited, a:visited i, .nav_links a:hover, footer a:hover, span, .beginning, .headers h3{ 
     color: red; 
 }
 a:active { 
@@ -39,9 +35,6 @@ a:active {
     z-index: 2;
     text-shadow: 2px 2px 15px black; 
 }
-span{ 
-    color: red; 
-}
 #pic { 
     float: left;
     width: 50%;
@@ -53,7 +46,6 @@ main {
     text-align: center;
 }
 footer{ 
-    background-color: black;
     padding: 15px 30px;
     margin: 100px 0px 0px 0px; 
 }
@@ -65,49 +57,44 @@ table, footer a, footer h1{
     align-items: center;
     justify-content: center;
     padding: 10px 5px 10px 10px; 
+} 
+header, footer, .about , .grid_container, .lyrics-box {
+    background: black;
 } /* Group code end */
 .about { /* Felicias code start */ 
     width:300px;
     padding: 20px;
     margin: 50px 0 0 580px;
     border-style: double;
-    background-color: black; 
 }
 .bandet { 
     margin: 60px 0 0 500px; 
 }
 .beginning { 
-    margin: 30px 0 0 650px;
-    color:red; 
+    margin: 30px 0 0 650px; 
 } /* Felicias code end */
 .lyrics-box { /* Jess code start */
     width: 500px;
     border-style: double;
-    background-color: #000;
     padding: 10px 20px;
     margin: 30px;
-    letter-spacing: 2px;
     line-height: 30px;
 } 
 .headers h1, .headers h3 {
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
 .headers h3 {
-    margin-top: 20px;
     font-size: 24px;
-    color: red;
 }
 #pic-for-jess-page { 
     width: 500px;
     float: left;
     margin: 30px;
 } /* Jess code end */
-
-/* Krizz code start */
-.tour h1{
+.tour h1{ /* Krizz code start */
     position: absolute;
     top: 20%;
     left: 20px;
@@ -121,12 +108,10 @@ table, footer a, footer h1{
     margin-top: 3px;
     display: grid; 
     grid: auto/ auto auto auto; /*auto size on first row and 3 columns auto size*/
-    background: black;
     box-shadow: 0 0 0 120px black; /* Box shadow to fill out without taking "space" */
 }
-.grid_container > *{  /* All child elements inside the container */
+.grid_container > * {  /* All child elements inside the container */
     text-align: center;
     padding: 50px; /* padding of the child elements, give the feel of space*/
     border-bottom: 1px solid #1c1c1c; /* for visual ease to see separation */
-  }
-/* Krizz code end */
+} /* Krizz code end */

@@ -95,8 +95,8 @@ header, footer, .about , .grid_container, .lyrics-box {
     font-size: 44px;
     writing-mode:vertical-rl; /* Rotate the text vertically */
 }
-.tour_pic, #pic-for-jess-page {
-    width:100%;
+.tour_pic, #pic-for-jess-page, .rock-concert_pic {
+    width:100%; /* the picture fills the hole screen, adjusts after screensize */
 }
 .grid_container{
     display: grid; 
@@ -108,24 +108,19 @@ header, footer, .about , .grid_container, .lyrics-box {
     padding: 50px; /* padding of the child elements, give the feel of space*/
     border-bottom: 1px solid #1c1c1c; /* for visual ease to see separation */
 } /* Krizz code end */
-.merch h1 { /* Rebecca Ritzén code start */
-    position: absolute;
-    left: 15%;
+.merch_pic { /* Rebecca Ritzén code start */
+    width: 300px;
+    box-shadow: 5px 5px 5px black; /*gives the pictures some shadow */
+    border-radius: 5px; /* gives the pictures small round corners */
+    }
+#merch h1 { 
+    position: absolute; /* makes the text go over the pictures, instead of to the right besides it */
+    left: 15%; /* by giving the text a percent instead of pixels, the text moves around depending on the screensize */
     top: 15%;
-    font-size: 4em;
+    font-size: 4em; /* makes the font-size 4 times larger than the default size on 16px */
     text-shadow: 2px 2px 15px black; 
 }
-.merch_pic { /* The size of the merch pictures */
-width: 300px;
-box-shadow: 5px 5px 5px black;
-border-radius: 5px; /* gives small round corners */
-}
-.infobox-merch, .merch-headers h2 { /* Slå ihop med Jessicas kod kanske? */
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+.infobox-merch, .merch-headers h2 {
+    text-align: center; /* makes the text go center, instead from the left that is default */
     margin-top: 20px;
-}
-.rock-concert_pic {
-   width: 100%;
 } /* Rebecca Ritzén code end */

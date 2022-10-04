@@ -61,7 +61,7 @@ table, footer a, footer h1 {
 header, footer, .about , .grid_container, .lyrics-box {
     background: black;
 } /* Group code end */
-.about { /* Felicias code start */ 
+.about, .lyrics-box { /* Felicias code start */ 
     width:300px;
     padding: 20px;
     margin: 50px 0 0 580px;
@@ -73,17 +73,21 @@ header, footer, .about , .grid_container, .lyrics-box {
 .beginning { 
     margin: 30px 0 0 650px; 
 } /* Felicias code end */
-.headers h1, .headers h2 { /* Jess code start */
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-#pic-for-jess-page { 
-    width: 500px;
-    float: left;
-    margin: 30px;
-} /* Jess code end */
+.heroJess h1 { /* Jess code start */
+    display: flex; /* Makes it a flex box */
+    align-items: center; /* Centering everything on the Y-axis */
+    justify-content: center; /* Centering everything on the X-axis (default flex-direction is row, but if we set flex-direction: column;, then align-items: center; would be centering everything on the X-axis and justify-content: center; on the Y-axis. So basically the opposite. */
+    position: absolute;
+    top: 30%;
+    font-size: 8rem; /* Make the font-size 16*8 px (default size is 16px)*/
+    text-shadow: 10px 10px 20px red;
+} 
+.lyrics-box {
+    position: absolute;
+    top: 80px;
+    width: 800px;
+    background: linear-gradient(to bottom, red 10%, black 60%); /* This gives the box a filter of red and black */
+} .lyrics-box p { line-height: 30px; } /* Jess code end */
 .tour h1{ /* Krizz code start */
     position: absolute;
     top: 20%;
@@ -91,7 +95,7 @@ header, footer, .about , .grid_container, .lyrics-box {
     font-size: 44px;
     writing-mode:vertical-rl; /* Rotate the text vertically */
 }
-.tour_pic{
+.tour_pic, #pic-for-jess-page {
     width:100%;
 }
 .grid_container{
@@ -124,5 +128,4 @@ border-radius: 5px; /* gives small round corners */
 }
 .rock-concert_pic {
    width: 100%;
-}
-/* Rebecca Ritzén code start */
+} /* Rebecca Ritzén code end */

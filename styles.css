@@ -74,7 +74,7 @@ header, footer, .about , .grid_container, .lyrics-box {
     margin: 30px 0 0 650px; 
 } /* Felicias code end */
 .heroJess h1 { /* Jess code start */
-    display: flex; /* Makes it a flex box */
+    display: flex; /* Makes it a flexbox */
     align-items: center; /* Centering everything on the Y-axis */
     justify-content: center; /* Centering everything on the X-axis (default flex-direction is row, but if we set flex-direction: column;, then align-items: center; would be centering everything on the X-axis and justify-content: center; on the Y-axis. So basically the opposite. */
     position: absolute;

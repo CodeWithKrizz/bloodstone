@@ -3,11 +3,11 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
     color: white;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth; /* To make a smooth effect when you press on the "Go to top" link in the footer */
 }
 body{ 
     background-color: #1c1c1c;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 header{ 
     display: flex;
@@ -87,7 +87,10 @@ header, footer, .about , .grid_container, .lyrics-box {
     top: 80px;
     width: 800px;
     background: linear-gradient(to bottom, red 10%, black 60%); /* This gives the box a filter of red and black */
-} .lyrics-box p { line-height: 30px; } /* Jess code end */
+} 
+.lyrics-box p { 
+    line-height: 30px; 
+} /* Jess code end */
 .tour h1{ /* Krizz code start */
     position: absolute;
     top: 20%;

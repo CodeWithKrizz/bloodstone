@@ -92,7 +92,6 @@ header, footer, .about , .grid_container {
     border-style: double;
 } 
 .lyrics-box p { 
-    /* line-height: 30px;  */
     margin: 20px 0;
 } 
 .lyrics-box h1 {

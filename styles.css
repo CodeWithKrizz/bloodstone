@@ -104,13 +104,12 @@ header, footer, .about , .grid_container {
 .lyrics-box {
     position: absolute;
     top: 80px;
-    width: 800px;
     background: linear-gradient(to bottom, red 10%, black 60%); /* This gives the box a filter of red and black */
     width: 300px;
     padding: 20px;
     border-style: double;
 } 
-.lyrics-box p { 
+.lyrics-box div.verse { 
     margin: 20px 0;
 } 
 .lyrics-box h1 {

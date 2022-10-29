@@ -109,6 +109,7 @@ header, footer, .about , .grid_container {
 .lyrics-box h1 {
     color: #1c1c1c;
 } /* Jess code end */
+
 .tour h1{ /* Krizz code start */
     position: absolute;
     top: 20%;
@@ -122,13 +123,19 @@ header, footer, .about , .grid_container {
 .grid_container{
     display: grid; 
     grid: auto/ auto auto auto; /*auto size on first row and 3 columns auto size*/
-    box-shadow: 0 0 0 120px black; /* Box shadow to fill out without taking "space" */
+    box-shadow: 0 0 0 140px black; /* Box shadow to fill out without taking "space" */
 }
 .grid_container > * {  /* All child elements inside the container */
     text-align: center;
     padding: 50px; /* padding of the child elements, give the feel of space*/
     border-bottom: 1px solid #1c1c1c; /* for visual ease to see separation */
-} /* Krizz code end */
+}
+.tour_adress{
+    text-align: center;
+    font-size: .6em;
+    padding-top: 20px;
+}
+/* Krizz code end */
 .merch_pic { /* Rebecca Ritzén code start */
     width: 300px;
     box-shadow: 5px 5px 5px black; /*gives the pictures some shadow */

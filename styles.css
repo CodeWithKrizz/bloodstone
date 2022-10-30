@@ -80,6 +80,7 @@ table, footer a, footer h1 {
 header, footer, .about , .grid_container {
     background: black;
 } /* Group code end */
+
 .about, .lyrics-box { /* Felicias code start */ 
     width:300px;
     padding: 20px;

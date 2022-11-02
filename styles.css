@@ -88,9 +88,11 @@ header, footer, .about , .grid_container {
     border-style: double;
 }
 .bandet { 
+    width: 500px;
     margin: 60px 0 0 500px; 
+
 }
-.beginning { 
+h1.beginning { 
     margin: 30px 0 0 650px; 
 } /* Felicias code end */
 .heroJess h1 { /* Jess code start */

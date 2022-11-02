@@ -112,7 +112,7 @@ header, footer, .about , .grid_container {
 .lyrics-box div.verse { 
     margin: 20px 0;
 } 
-.lyrics-box h1 {
+.lyrics-box h2 {
     color: #1c1c1c;
 } 
 main section {
@@ -121,7 +121,7 @@ main section {
     align-items: center;
     justify-content: center;
 }
-main section h1 {
+main section h2 {
     font-size: 3em;
     margin: 20px 0;
 }

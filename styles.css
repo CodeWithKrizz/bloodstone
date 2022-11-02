@@ -61,7 +61,7 @@ footer{
     padding: 15px 30px;
     margin: 100px 0px 0px 0px; 
 } 
-caption{
+footer table caption{
    transform: translateX(350%);
    margin-bottom: 200px;
    font-size: 1.7em;

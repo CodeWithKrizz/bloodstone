@@ -194,4 +194,8 @@ aside a:hover {
 .infobox-merch, .merch-headers h2 {
     text-align: center; /* makes the text go center, instead from the left that is default */
     margin-top: 20px;
-} /* Rebecca Ritzén code end */
+} 
+.merch-topic {
+        font-size: 1.5em;
+        font-weight: bold;
+}/* Rebecca Ritzén code end */

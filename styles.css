@@ -165,7 +165,6 @@ aside a:hover {
 .grid_container{
     display: grid; 
     grid: auto/ auto auto auto; /*auto size on first row and 3 columns auto size*/
-    box-shadow: 0 0 0 140px black; /* Box shadow to fill out without taking "space" */
 }
 .grid_container > * {  /* All child elements inside the container */
     text-align: center;
@@ -173,14 +172,17 @@ aside a:hover {
     border-bottom: 1px solid #1c1c1c; /* for visual ease to see separation */
 }
 .tour_adress{
-    text-align: center;
     font-size: .6em;
     padding-top: 20px;
+    box-shadow: 0 0 0 100px black; /* Box shadow to fill out without taking "space" */
 }
 .tour_article{
+    line-height: 1.5em;
+    padding-top: 50px;
+}
+.tour_adress, .tour_article{
+    background-color: #000;
     text-align: center;
-    margin-top: 40px;
-    outline: 1px solid white;
 }
 /* Krizz code end */
 .merch_pic { /* Rebecca Ritzén code start */

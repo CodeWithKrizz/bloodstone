@@ -90,7 +90,6 @@ header, footer, .about , .grid_container {
 .bandet { 
     width: 500px;
     margin: 60px 0 0 500px; 
-
 }
 h1.beginning { 
     margin: 30px 0 0 650px; 
@@ -184,18 +183,30 @@ aside a:hover {
     box-shadow: 5px 5px 5px black; /*gives the pictures some shadow */
     border-radius: 5px; /* gives the pictures small round corners */
     }
-#merch h1 { 
+#merch figcaption { 
     position: absolute; /* makes the text go over the pictures, instead of to the right besides it */
     left: 15%; /* by giving the text a percent instead of pixels, the text moves around depending on the screensize */
     top: 15%;
     font-size: 4em; /* makes the font-size 4 times larger than the default size on 16px */
+    font-weight: bold;
     text-shadow: 2px 2px 15px black; 
 }
-.infobox-merch, .merch-headers h2 {
+.infobox-merch {
     text-align: center; /* makes the text go center, instead from the left that is default */
     margin-top: 20px;
 } 
 .merch-topic {
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: bold;
+        margin: 10px 0;
+}
+.merch-headers table {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+}
+.merch-main {
+display: block;
+margin: 50px;
 }/* Rebecca Ritzén code end */

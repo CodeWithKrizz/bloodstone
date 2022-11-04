@@ -177,6 +177,11 @@ aside a:hover {
     font-size: .6em;
     padding-top: 20px;
 }
+.tour_article{
+    text-align: center;
+    margin-top: 40px;
+    outline: 1px solid white;
+}
 /* Krizz code end */
 .merch_pic { /* Rebecca Ritzén code start */
     width: 300px;
